@@ -1,0 +1,10 @@
+# Ignorar archivos DS_Store en cualquier directorio
+.DS_Store
+
+# Ignorar archivos específicos en el directorio build
+build/asset-manifest.json
+build/index.html
+build/static/js/main.4bae6c5e.*
+
+# Ignorar todos los archivos en el directorio de cache de node_modules
+node_modules/.cache/
